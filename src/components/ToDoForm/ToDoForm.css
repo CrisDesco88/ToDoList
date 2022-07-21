@@ -1,0 +1,33 @@
+.formContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+}
+
+button {
+    margin-bottom: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    box-sizing: border-box;
+    
+}
+
+.addBtn:hover {
+    background-color: forestgreen;
+    font-weight: 900;
+}
+
+.deleteBtn:hover {
+    background-color: indianred;
+    font-weight: 900;
+}
+
+input{
+    margin-bottom: 20px;
+    padding: 5px;
+}
+
